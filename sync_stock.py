@@ -7,7 +7,7 @@ Sprawdza zamówienia w statusie 'processing' i tworzy wydania magazynowe w Odoo.
 import os
 import json
 import xmlrpc.client
-import requests
+import requests # type: ignore
 from datetime import datetime
 import base64
 

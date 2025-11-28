@@ -1,0 +1,4 @@
+# Local settings and status
+local_settings.json
+last_sync_status.json
+test_sync.py
