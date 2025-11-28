@@ -157,7 +157,7 @@ class WooCommerceOdooSync:
             print(f"    Utworzono picking ID: {picking_id}")
 
             move_vals = {
-                'name': 'WooCommerce wydanie',
+                'name': f'WooCommerce wydanie (zamówienie #{order_number})',
                 'product_id': product_id,
                 'product_uom_qty': quantity,
                 'product_uom': 1,
